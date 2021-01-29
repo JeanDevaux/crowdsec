@@ -41,7 +41,7 @@ services:
     depends_on:
       - 'crowdsec'
     volumes:
-      - crowdsec-db:/metabase-data/
+      - crowdsec-db:/var/lib/crowdsec/data/
     links:
       - crowdsec
 
