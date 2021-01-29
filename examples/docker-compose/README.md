@@ -4,7 +4,7 @@ This example explains how to integrate crowdsec in environment deployed with doc
 
 ![Schema](schema.png)
 
-## Prerequisites: Docker / Docker Compose
+**Prerequisites:** [Docker](https://docs.docker.com/engine/install/) / [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Step 0: Create docker-compose.yml
 
