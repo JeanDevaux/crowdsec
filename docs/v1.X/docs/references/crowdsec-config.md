@@ -28,7 +28,7 @@ crowdsec_service:
   output_routines: 1
 cscli:
   output: human
-  hub_branch: wip_lapi
+  hub_branch: master
 db_config:
   log_level: info
   type: sqlite
