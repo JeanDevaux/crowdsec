@@ -10,7 +10,7 @@ This example contains multiple containers :
 * crowdsec : it will read reverse-proxy logs from the shared volume
 * dashboard : we use [metabase](https://hub.docker.com/r/metabase/metabase) to display crowdsec database data.
 
-We have chosen the simplest way to collect logs (by sharing volumes between containers), if you are in production you are probably using logging-driver to centralize logs with rsyslog or another driver, so don't forget to adapt the crowdsec docker-compose configuration to read the logs properly.
+We have chosen the simplest way to collect logs (by sharing volumes between containers), if you are in production, you are probably using logging-driver to centralize logs with rsyslog or another driver, so don't forget to adapt the crowdsec docker-compose configuration to read the logs properly.
 
 **Prerequisites:** [Docker](https://docs.docker.com/engine/install/) / [Docker Compose](https://docs.docker.com/compose/install/)
 
